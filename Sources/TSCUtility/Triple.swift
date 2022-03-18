@@ -49,6 +49,10 @@ public struct Triple: Encodable, Equatable {
         case arm64
         case arm64e
         case wasm32
+        case mips
+        case mipsel
+        case mips64
+        case mips64el
     }
 
     public enum Vendor: String, Encodable {
